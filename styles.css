@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle, rgb(92, 92, 92), rgb(36, 32, 32));
+    color: white;
+}
+.linkedin-b{
+    background-image: url( imgs/linkedin4.png);
+    background-size: cover;
+    background-color: black;
+}
+.github-b{
+    background-image: url(imgs/github1\).png);
+    background-size: cover;
+    border-radius: 50%;
+}
+.docs-b{
+    background-image: url(imgs/docs6.png);
+    background-size: cover;
+    background-color: white; 
+}
+img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+button{
+    background-color: gray;
+    color: white;
+    position: relative;
+    bottom: 0px;
+    width: 35px;
+    height: 35px;
+    border: none;
+    margin-right: 8px;
+    transition: 0.4s;
+    border-radius: 15%;
+}
+button:hover{
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+}
+.text{
+    margin-left: 30%;
+    margin-top: 12%; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.react{
+    display: inline;
+}
+h3{
+    margin:0px  5px;
+}
+h1{
+    font-size:100px;
+    margin: 0px 5px;
+}
+p{
+    margin-left: 30%;
+    width: 30%;
+    margin-top: 2px;
+}
+.tablet-s{
+    display: inline-block;
+    background-color: transparent;
+    margin-left: 10px;
+    margin-top: 5%;
+    border-radius: 5%;
+    position: relative;
+    width: 420px;
+    height: 580px;
+}
+.tablet-s-r{
+    display: inline-block;
+    background-color: transparent;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 5%;
+    position: relative;
+    width: 480px;
+    height: 580px;
+}
+.tablet-image{
+    border-radius: 10%;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+.movie-image-tablet{
+    background-color: transparent;
+    position: absolute;
+    top: 2.1%;
+    left: 0.5%;
+    width: 99.5%;
+    height: 95.1%;
+    object-fit: contain;
+}
+.restaurant-image-tablet{
+    background-color: black;
+    position: absolute;
+    top: 7.8%;
+    left: 3%;
+    width: 90%;
+    height: 85.1%;
+    object-fit: contain;
+}
+.phone-s {
+    display: inline-block;
+    margin-left: 27%;
+    position: relative;
+    width: 200px; /* Width of the phone image */
+    height: 460px; /* Height of the phone image */
+}
+
+.phone-image {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+
+.movie-image-phone {
+    position: absolute;
+    top: 5.7%; /* Adjust this to properly position the movie image within the phone screen */
+    left: 2.1%; /* Adjust this to properly position the movie image within the phone screen */
+    width: 96.1%; /* Adjust the width of the movie image as needed */
+    height: 90.3%; /* Adjust the height of the movie image as needed */
+    object-fit: contain; /* You can adjust this property to control how the inner image fits within the screen */
+}
+.restaurant-image-phone{
+    position: absolute;
+    top: 5.7%; /* Adjust this to properly position the movie image within the phone screen */
+    left: 2.1%; /* Adjust this to properly position the movie image within the phone screen */
+    width: 96.1%; /* Adjust the width of the movie image as needed */
+    height: 90.3%; /* Adjust the height of the movie image as needed */
+    object-fit: contain; /* You can adjust this property to control how the inner image fits within the screen */
+
+}
+.check{
+    display: inline-block;
+    border-radius: 5%;
+    background-color: rgb(47, 206, 60);
+    width: 150px;
+    height: 37px;
+    margin-top: 1%;
+    margin-left: 42%;
+    margin-right: 4%;
+}
+.check:hover{
+    background-color: rgb(47, 233, 62);
+}
+.cheick{
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5%;
+    background-color: rgb(236, 48, 24);
+    width: 150px;
+    height: 37px;
+    margin-top: 1%;
+    margin-left: 41%;
+    margin-right: 2%;
+}
+.cheick:hover{
+    background-color: rgb(255, 39, 11);
+}
+.checkGit{
+    display: inline-block;
+    color: black;
+    padding: 5px;
+    border: white 1px solid;
+    border-radius: 5%;
+    background-color:white;
+    width: 150px;
+    height: 37px;
+}
+.checkGit:hover{
+    background-color: rgb(245, 243, 243);
+    
+}
+.container{
+    margin-top: 7%;
+    margin-bottom: 0%;
+    display: flex;
+    width: 100%;
+}
+iframe{
+    flex: 1;
+    border: none;
+    height: 100vh;
+}
+.texto{
+    flex: 1;
+    padding: 20px;
+    background-color: transparent;
+    font-size: 16px;
+    color: white;
+    text-shadow: 2px 2px 2px gray;
+}
+.title-TEXT{
+    font-size: 28px;
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+.title-Sub-Text{
+    margin-left: 2%;
+    margin-bottom: 5%;
+    font-size: 21px;
+}
+.paragraph{
+    text-shadow: none;
+    margin-left: 4%;
+    font-size: 18px;
+    width: 70%;
+}
+.movies{
+    margin-top: 12%;
+    background: radial-gradient(circle, rgb(19, 19, 19),rgb(58, 57, 57)) ;
+}
+.restaurant{
+    background: radial-gradient(circle, rgb(19, 19, 19),rgb(58, 57, 57)) ;
+}
